@@ -5,7 +5,7 @@ This project aims to develop a system that can detect suicidal ideation using Na
 I've used the kaggle dataset from this [link](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch). The dataset is a collection of posts from "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, were collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021.
 
 # Data Preprocessing
-At the preprocessing stage, the lower case process is carried out, filtering text by removing symbols, emoji, numbers, special characters, and any objects other than the alphabet. Then the stopword removal process is carried out using the NLTK library (Natural Language Toolkit). Then stemming is done to change word classes into basic words using NLTK Stemmer.
+At the preprocessing stage, the lower case process is carried out, filtering text by removing symbols, emoji, numbers, special characters, and any ogbjects other than the alphabet. Then the stopword removal process is carried out using the NLTK library (Natural Language Toolkit). Then stemming is done to change word classes into basic words using NLTK Stemmer.
 
 # Feature Extraction:
 Before entering the feature extraction stage the dataset is split into 80% data train and 20% data validation. At the feature extraction stage, the tokenizer process is carried out using Tokenizer() on tensorflow. Furthermore, padding is done to equalize the length of the sequence of each line.
