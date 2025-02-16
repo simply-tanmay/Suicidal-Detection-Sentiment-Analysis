@@ -11,7 +11,8 @@ At the preprocessing stage, the lower case process is carried out, filtering tex
 Before entering the feature extraction stage the dataset is split into 80% data train and 20% data validation. At the feature extraction stage, the tokenizer process is carried out using Tokenizer() on tensorflow. Furthermore, padding is done to equalize the length of the sequence of each line.
 
 # Deep Learning Models:
-Word Embedding Layers Model,Word Embedding + Global Average Pooling Models, Word Embedding + Convolutional Neural Networks (CNN), Word Embedding + Bidirectional Long Short-Term Memory (Bi-LSTM)
+Word Embedding Layers Model,Word Embedding + Global changes made to this document should show up in my commits
+Average Pooling Models, Word Embedding + Convolutional Neural Networks (CNN), Word Embedding + Bidirectional Long Short-Term Memory (Bi-LSTM)
 
 # Logs Results
 
