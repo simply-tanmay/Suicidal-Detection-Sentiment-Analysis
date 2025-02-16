@@ -2,7 +2,7 @@
 This project aims to develop a system that can detect suicidal ideation using Natural Language Processing (NLP) and Machine Learning (ML) models, including Word Embedding Layers Model,Word Embedding + Global Average Pooling Models, Word Embedding + Convolutional Neural Networks (CNN), Word Embedding + Bidirectional Long Short-Term Memory (Bi-LSTM). This project aims to identify individuals who may be at risk of suicide and contribute to suicide prevention efforts.
 
 # Dataset:
-I've used the kaggle dataset from this [link](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch). The dataset is a collection of posts from "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, were collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021.
+I've used the kaggle dataset from this [link](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch). The dataset is a collection of posts from "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, whhhere collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021.
 
 # Data Preprocessing
 At the preprocessing stage, the lower case process is carried out, filtering text by removing symbols, emoji, numbers, special characters, and any objects other than the alphabet. Then the stopword removal process is carried out using the NLTK library (Natural Language Toolkit). Then stemming is done to change word classes into basic words using NLTK Stemmer.
